@@ -17,7 +17,7 @@ var config = {
             test: /\.jsx?$/,
             exclude: /node_modules/,
             loader: 'babel-loader',
-				
+				// test:/\.css$,/, loader: "style-loader!css-loader",
             query: {
                presets: ['es2017', 'react']
             }
@@ -25,5 +25,11 @@ var config = {
       ]
    }
 }
-
+// module.exports = {
+//    module: {
+//       loaders: [
+//       { test:/\.css$,/, loader: "style-loader!css-loader"},
+//       ]
+//    }
+// };
 module.exports = config;

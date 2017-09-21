@@ -20,5 +20,8 @@
     "react-dom": "^15.6.1",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.8.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
   }
 }
