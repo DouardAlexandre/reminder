@@ -9,8 +9,39 @@ body{
 }
 header{
   width: 100vw;
-  height: 10vh;
+  height: 6vh;
   background-color: #333333;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  background: #333;
+  background-image: -webkit-linear-gradient(top, #333, #333);
+  background-image: -moz-linear-gradient(top, #333, #333);
+  background-image: -ms-linear-gradient(top, #333, #333);
+  background-image: -o-linear-gradient(top, #333, #333);
+  background-image: linear-gradient(to bottom, #333, #333);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  margin-left: 0px;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #f55d53;
+  background-image: -webkit-linear-gradient(top, #f55d53, #f55d53);
+  background-image: -moz-linear-gradient(top, #f55d53, #f55d53);
+  background-image: -ms-linear-gradient(top, #f55d53, #f55d53);
+  background-image: -o-linear-gradient(top, #f55d53, #f55d53);
+  background-image: linear-gradient(to bottom, #f55d53, #f55d53);
+  text-decoration: none;
 }
 main{
   height: 80vh;
@@ -18,8 +49,9 @@ main{
   color: #000;
 }
 .App-logo{
-  transform:scale(.8);
-  margin-top:.4rem;
+  transform:scale(.7);
+/*   margin-right:80em; */
+/*   margin-top:.4rem; */ 
 }
 .blocA{
   width: 8rem;
@@ -42,6 +74,7 @@ main{
   height: 8vh;
   background-color: #fff;
   text-align: center;
+  background-color: #f55d53;
   /*   margin:10px; */
 /*   border-bottom-left-radius: 20px;
 border-bottom-right-radius: 20px;
@@ -57,14 +90,14 @@ footer{
   background-color: #333333;/* #f55d53 */
   display: flex;
   justify-content: flex-end;
-  padding-right: 20rem;
+/*   padding-right: 20rem; */
   overflow: hidden;
 } 
 
 /* --------------- Social --------------- */
 
 .icons{
-  padding-right: 10rem;
+/*   padding-right: 10rem; */
   transform:scale(.23);
   position:relative;
   top:-63px;
@@ -93,6 +126,6 @@ ul {
 
 li {
   margin: auto;
-  width: 10vw;
+  width: 5vw;
   height: 10vh;
 }

@@ -7,11 +7,11 @@ class Header extends Component {
    render() {
       return (
          	<header>
-				    <div className="App">
-	        		<div className="App-header">
-	          			<img src={logo} className="App-logo" alt="logo" />
-	       		 	</div>
-	         	</div>
+          			<img src={logo} className="App-logo" alt="logo" />
+                <div>
+                  <button>Inscription</button>
+                  <button>Connexion</button>
+                </div>
         	</header>
         );
   	}
