@@ -8,11 +8,9 @@ class Footer extends Component {
    render() {
       return (
 			<footer>
-       		<div className="reseaux_sociaux">
-              <a href="#"><img src={facebook} className="icons" alt="logo" /></a>
-              <a href="#"><img src={twitter} className="icons" alt="logo" /></a>
-              <a href="#"><img src={pinterest} className="icons" alt="logo" /></a>
-          </div>
+              <a class="link" href="#"><img src={facebook} className="icons" alt="logo" /></a>
+              <a class="link" href="#"><img src={twitter} className="icons" alt="logo" /></a>
+              <a class="link" href="#"><img src={pinterest} className="icons" alt="logo" /></a>
 			</footer>
         );
   	}
