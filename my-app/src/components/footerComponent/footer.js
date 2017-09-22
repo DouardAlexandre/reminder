@@ -1,23 +1,18 @@
 
 import React, { Component } from 'react';
-/*import twitter from './twitter.png';*/
-/*import reminder from './reminder.png';*/
+import twitter from './twitter.png';
+import facebook from './facebook.png';
+import pinterest from './pinterest.png';
 
 class Footer extends Component {
    render() {
       return (
 			<footer>
-      <h1>footer</h1>
-{/*        		<div className="sociaux">
-          			<img src={twitter} className="twitter" alt="logo" />
-       		 	</div>*/}
-{/*       		 	<div className="sociaux">
-          			<img src={twitter} className="twitter" alt="logo" />
-       		 	</div>*/}
-{/*        		<div className="sociaux">
-          			<img src={twitter} className="twitter" alt="logo" />
-       		 	</div>*/}
-
+       		<div className="reseaux_sociaux">
+              <a href="#"><img src={facebook} className="icons" alt="logo" /></a>
+              <a href="#"><img src={twitter} className="icons" alt="logo" /></a>
+              <a href="#"><img src={pinterest} className="icons" alt="logo" /></a>
+          </div>
 			</footer>
         );
   	}
