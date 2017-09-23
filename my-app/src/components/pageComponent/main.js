@@ -4,6 +4,7 @@ class Page extends Component {
    render() {
       return (
 			<main>
+			    <div className="graphics"></div>
 				<div className="blocA">
 					<h1>blocA</h1>
 				</div>
