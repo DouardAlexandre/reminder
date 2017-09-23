@@ -16,7 +16,7 @@ header{
   align-items: center;
 }
 .App-logo{
-  transform:scale(.7);
+  transform:scale(.8);
 }
 button {
   background: #333;
@@ -30,7 +30,7 @@ button {
   border-radius: 28px;
   font-family: Georgia;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 10px;
   padding: 10px 20px 10px 20px;
   margin-left: 0px;
   margin-right: 50px;
@@ -125,19 +125,19 @@ footer{
   position: absolute;
   width: 40rem;
   height: 30rem;
-  border-bottom: .3rem solid black;
-  border-right: .3rem solid black;
+  border-bottom: .2rem solid black;
+  border-right: .2rem solid black;
   transform: rotate(-55deg);
   left: -20rem;
   bottom: 30px;
-
+  z-index: -1;
 }
 
 
 
 
 
-.twitter:hover , .linkedin:hover , .github:hover {
+/* .twitter:hover , .linkedin:hover , .github:hover {
   color: rgba(46, 204, 113,0.8);
 }
 ul {
@@ -151,4 +151,4 @@ li {
   margin: auto;
   width: 5vw;
   height: 10vh;
-}
+} */
