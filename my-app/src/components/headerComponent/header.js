@@ -24,11 +24,11 @@ class Header extends Component {
           </div>
         	</header>
           <Switch>
-<<<<<<< HEAD
+
               <Route exact={true} path='/' component={Home} />
-=======
+
               {/*<Route exact path='/' component={Home} />*/}
->>>>>>> master
+
               <Route path='/main' component={Main} />
               <Route path='/form' component={Form} />
               <Route path='/board' component={Board} />
