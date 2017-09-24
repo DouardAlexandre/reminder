@@ -41,6 +41,7 @@ button {
   margin-left: 0px;
   margin-right: 50px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 button:hover {
@@ -198,9 +199,25 @@ opacity: 1;
   margin-top: 40px;
 
 }
-
-
-
+.form_recherche{
+  width: 15rem;
+  height: 40px;
+  text-align: center;
+  margin-left: 34.3%;
+}
+#recherche{
+  width: 15rem;
+  height: 1.5rem;
+  text-align: center;
+  border:solid 1px #f5f5f5;
+  background-color: #f5f5f5;
+  font-style: italic;
+}
+#recherche:hover{
+  background-color: white;
+  border-top:solid 1px #f55d53;
+  border-bottom:solid 1px #f55d53;
+}
 /* --------------- Footer --------------- */
 
 footer{
