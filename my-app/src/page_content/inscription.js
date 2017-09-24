@@ -32,7 +32,7 @@ class formInscription extends Component {
         <div className="form_inscription">
             <div className="triangle_white_small_form"></div>
             <form onSubmit={this.handleSubmit}>
-             
+              <div className="entete_formulaire"></div>
               <input id="username"  name="username" placeholder="username" type="text" />
 
             

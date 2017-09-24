@@ -148,7 +148,16 @@ opacity: 1;
 }*/
 /* --------------- form connection  --------------- */
 
-
+.entete_formulaire{
+  position:absolute;
+  width: 400px;
+  height: 60px;
+  background-color: #333333;
+  top:-30px;
+  z-index: 100;
+  border-radius: 15px 15px 0 0;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+}
 .form_connection{
   position:relative;
   margin-left:40vw;

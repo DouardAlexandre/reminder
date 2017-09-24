@@ -23,8 +23,9 @@ class formConnection extends Component {
       <div>
         <div className="form_connection">
         <div className="triangle_white_small_form"></div>
+
             <form onSubmit={this.handleSubmit}>
-             
+              <div className="entete_formulaire"></div>
               <input id="username"  name="username" placeholder="username" type="text" />
 
             
