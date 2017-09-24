@@ -26,7 +26,7 @@ class Header extends Component {
           </div>
         	</header>
           <Switch>
-              <Route exact path='/' component={Home} />
+              {/*<Route exact path='/' component={Home} />*/}
               <Route path='/main' component={Main} />
               <Route path='/form' component={Form} />
           </Switch>
