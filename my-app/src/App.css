@@ -65,19 +65,19 @@ button:hover {
 }
 .presentation{
   padding-left: 500px;
- margin: auto auto;
- vertical-align: middle;
- }
+  margin: auto auto;
+  vertical-align: middle;
+}
 /* ---------------board--------------- */
 
 
 .menu{
- 
+
   height: 100vh;
   width: 23rem;
   min-width: 15vh;
   background-color: white;
- 
+
 }
 .board{
   height: 100vh;
@@ -87,7 +87,7 @@ button:hover {
 
 
 
- 
+
 
 /*main{
 
@@ -146,7 +146,7 @@ opacity: 1;
 /* --------------- form  --------------- */
 
 
-.form{
+.form_connection{
   margin-left:40vw;
   margin-right: 100px;
   margin-top:20vh;
@@ -155,12 +155,21 @@ opacity: 1;
   background-color: #f55d53;
   display: flex;
   align-items: center;
- justify-content: center;
-z-index: 100;
+  justify-content: center;
+  z-index: 100;
 }
-.form button{
- z-index: 100;
-  color: red;
+.form_connection input{
+  padding: 10px;
+  border: none;
+  height: 20px;
+  width: 250px;
+  margin-left:18%;
+  margin-top: 40px;
+}
+.form_connection button{
+  z-index: 100;
+  margin-left:60%;
+  margin-top: 40px;
 
 }
 
@@ -253,7 +262,7 @@ footer{
  border-left: 100px solid transparent;
  top: 60px;
  left: 0;
-  transform: rotate(180deg);
+ transform: rotate(180deg);
 
 }
 .rect_red{
