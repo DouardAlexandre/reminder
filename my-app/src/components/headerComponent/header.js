@@ -4,19 +4,17 @@ import logo from './logo.svg';
 import Home, { home } from '../../page_content/home';
 import Main, { main } from '../pageComponent/main';
 import Form, { form } from '../../page_content/form';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Board, { board } from '../../page_content/board';
+import { BrowserRouter , Switch, Route, Link } from 'react-router-dom';
 
 class Header extends Component {
-  constructor() {
-  super();
-  }
+ 
    render() {
   
       return (
-        <Router>
+        <BrowserRouter>
         <div>
          	<header>
-       
           <div>
             <Link to={'/'}><img src={logo} className="App-logo" alt="logo" /></Link>
           </div>
@@ -26,12 +24,13 @@ class Header extends Component {
           </div>
         	</header>
           <Switch>
-              <Route exact path='/' component={Home} />
+              <Route exact={true} path='/' component={Home} />
               <Route path='/main' component={Main} />
               <Route path='/form' component={Form} />
+              <Route path='/board' component={Board} />
           </Switch>
           </div>
-        </Router>
+        </BrowserRouter>
 
         );
   	}

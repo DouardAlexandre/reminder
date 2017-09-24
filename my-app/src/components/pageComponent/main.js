@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 
-import Inscription, { inscription } from '../../page_content/inscription';
 
 
-import ReactDOM from 'react-dom';
+
 
 	
 
@@ -11,17 +10,15 @@ class Page extends Component {
   render() {
     return (
       <div>
-        <h3>INSCRIPTION</h3>
-        
+        <h3 className="text">INSCRIPTION</h3>
+        <div>
+            <div className="triangle_black_border"></div>
+            <div className="triangle_red"></div>
+            <div className="triangle_red_small"></div>
+          </div>
       </div>
     );
   }
 }
-    
-
-
-
-
-//ReactDOM.render(<Page />, document.getElementById('App'));
 
 export default Page;

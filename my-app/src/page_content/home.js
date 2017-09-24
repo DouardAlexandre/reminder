@@ -7,7 +7,9 @@ class Home extends Component {
   render(){
     return (
       <div>
-    	  <div className="text">Lorem ipsum</div>
+          <div className="text">
+    	    <p className="presentation">Presentation<br /> App Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem <br />ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+    	  </div>
           <div>
             <div className="triangle_black_border"></div>
             <div className="triangle_red"></div>
