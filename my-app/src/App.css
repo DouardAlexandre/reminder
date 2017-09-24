@@ -67,13 +67,28 @@ button:hover {
   padding-left: 500px;
  margin: auto auto;
  vertical-align: middle;
+ }
+/* ---------------board--------------- */
+
+
+.menu{
  
-
-
-
-
+  height: 100vh;
+  width: 23rem;
+  min-width: 15vh;
+  background-color: white;
  
 }
+.board{
+  height: 100vh;
+  width: 100vw;
+  background-color: #f5f5f5;
+}
+
+
+
+ 
+
 /*main{
 
   overflow: hidden;
@@ -217,8 +232,36 @@ footer{
  right: 0;
  z-index: -10;
 }
+.triangle_red_menu{
+ position: absolute;
+ width: 0;
+ height: 0;
+ border-bottom: 200px solid #f55d53;
+ border-left: 200px solid transparent;
+ top: 60px;
+ left: 0;
+ transform: rotate(180deg);
 
+ 
+}
 
+.triangle_red_small_menu{
+ position: absolute;
+ width: 0;
+ height: 0;
+ border-bottom: 100px solid #B6443E;
+ border-left: 100px solid transparent;
+ top: 60px;
+ left: 0;
+  transform: rotate(180deg);
+
+}
+.rect_red{
+  width: 23rem;
+  height: 40px;
+  background-color: #f55d53;
+
+}
 
 
 

@@ -7,8 +7,13 @@ class Board extends Component {
   render() {
     return (
       <div>
-        <h3>Board</h3>
-        
+         <div className="board">
+           <div className="menu">
+              <div className="triangle_red_menu"></div>
+              <div className="triangle_red_small_menu"></div>
+              <div className="rect_red"></div>
+           </div>
+        </div>
       </div>
     );
   }
