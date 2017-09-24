@@ -172,7 +172,32 @@ opacity: 1;
   margin-top: 40px;
 
 }
+.form_inscription{
+  margin-left:40vw;
+  margin-right: 100px;
+  margin-top:20vh;
+  width: 400px;
+  height: 400px;
+  background-color: #f55d53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+.form_inscription input{
+  padding: 10px;
+  border: none;
+  height: 20px;
+  width: 250px;
+  margin-left:18%;
+  margin-top: 40px;
+}
+.form_inscription button{
+  z-index: 100;
+  margin-left:60%;
+  margin-top: 40px;
 
+}
 
 
 
@@ -241,6 +266,7 @@ footer{
  right: 0;
  z-index: -10;
 }
+/* --------------- graphics menu --------------- */
 .triangle_red_menu{
  position: absolute;
  width: 0;

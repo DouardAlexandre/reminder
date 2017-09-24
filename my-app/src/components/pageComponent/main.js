@@ -6,19 +6,52 @@ import React, { Component } from 'react';
 
 	
 
-class Page extends Component {
+import { BrowserRouter , Switch, Route, Link } from 'react-router-dom';
+	
+
+class formInscription extends Component {
+	constructor() {
+    super();
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleSubmit(event) {
+    event.preventDefault();
+    const data = new FormData(event.target);
+    
+    {/*fetch('/api/form-submit-url', {
+      method: 'POST',
+      body: data,
+    });*/}
+  }
   render() {
     return (
       <div>
-        <h3 className="text">INSCRIPTION</h3>
+        <div className="form_inscription">
+            <form onSubmit={this.handleSubmit}>
+             
+              <input id="username"  name="username" placeholder="username" type="text" />
+
+            
+              <input id="email" name="email" placeholder="email" type="email" />
+
+            
+              <input id="password" placeholder="password" name="password" type="text" />
+
+              <Link to={'/board'}><button>s'inscrire</button></Link>
+            </form>
+         
+        </div>
+        
         <div>
             <div className="triangle_black_border"></div>
             <div className="triangle_red"></div>
             <div className="triangle_red_small"></div>
-          </div>
+        </div>
+
       </div>
     );
   }
 }
-
-export default Page;
+    
+export default formInscription;

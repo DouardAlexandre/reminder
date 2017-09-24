@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { BrowserRouter , Switch, Route, Link } from 'react-router-dom';
 	
 
-class Form extends Component {
+class formConnection extends Component {
 	constructor() {
     super();
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -13,10 +13,10 @@ class Form extends Component {
     event.preventDefault();
     const data = new FormData(event.target);
     
-    fetch('/api/form-submit-url', {
+    {/*fetch('/api/form-submit-url', {
       method: 'POST',
       body: data,
-    });
+    });*/}
   }
   render() {
     return (
@@ -48,4 +48,4 @@ class Form extends Component {
   }
 }
     
-export default Form;
+export default formConnection;
