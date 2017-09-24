@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 //components
 import Header from './components/headerComponent/header';
-import Main from './components/pageComponent/main';
+import Home from './page_content/home';
 import Footer from './components/footerComponent/footer';
 
 /*import logo from './components/headerComponent/logo.svg';*/
@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <Main />
+        <Home />
         <Footer />
       </div>
     );
