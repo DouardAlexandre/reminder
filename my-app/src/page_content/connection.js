@@ -22,6 +22,7 @@ class formConnection extends Component {
     return (
       <div>
         <div className="form_connection">
+        <div className="triangle_white_small_form"></div>
             <form onSubmit={this.handleSubmit}>
              
               <input id="username"  name="username" placeholder="username" type="text" />

@@ -30,6 +30,7 @@ class formInscription extends Component {
     return (
       <div>
         <div className="form_inscription">
+            <div className="triangle_white_small_form"></div>
             <form onSubmit={this.handleSubmit}>
              
               <input id="username"  name="username" placeholder="username" type="text" />
