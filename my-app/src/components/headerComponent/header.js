@@ -24,7 +24,6 @@ class Header extends Component {
           </div>
         	</header>
           <Switch>
-
               <Route exact={true} path='/' component={Home} />
               <Route path='/inscription' component={Inscription} />
               <Route path='/connection' component={Connexion} />
